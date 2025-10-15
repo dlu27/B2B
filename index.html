@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daphne's Portfolio</title>
+        <style>
+            body {background-color: rgb(233, 137, 153);}
+            .title {
+                color:oldlace;
+                text-align: center;
+                font-family: 'Brush Script MT', cursive;
+            }
+
+            p {
+                color: oldlace;
+                font-family: Georgia, serif
+            }
+        </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<h1 class="title";>~ Daphne's Portfolio ~</h1>
+
+ <div style="text-align: center;">
+    <img src="Lookbook2.png" alt="Lookbook" 
+    style= "width: 200px; height: 200px; border-radius: 50%;">
+
+<p style="font-family: Georgia, serif; font-size: x-large;">
+Hello! My name is Daphne and I am a third year Master's Student in UNLV's Couple and Family Therapy program. 
+I will be graduating this December 2025 and can't wait to begin my career as a therapist! </p>
+
+<p style="font-family: Georgia, serif; font-size: large; text-align: left;">
+My involvement at UNLV has included being a mentor for both my graduate program and the Grad Rebel Advantage Program.
+I have been an Instructional Graduate Assistant where I taught CFT 150 Personal Growth and CFT 360 Contemporary Marriages and Families.
+Currently, I am a Graduate Assistant for New Student Orientation (we won this year's homecoming parade cart contest!). 
+I was also a recipient of the Rebel of the Year award this year!</p>
+
+<div style="text-align: center;">
+    <img src="Homecoming.JPG" alt="Homecoming"
+    style="width: 425px; height: 300px; padding: 8px;">
+
+    <img src="ROTY.png" alt="ROTY"
+    style="width: 425px; height: 300px; padding: 8px;">
+</div>
+
+<p style="font-family: Georgia, serif; font-size: large; text-align: left;">
+For extracurricular activities, I was Executive Vice President for Delta Kappa Zeta, our Marriage and Family Honor Society, 
+and I am a competitor on Rebel DanceSport, UNLV's competitive ballroom and Latin dance team. Outside of school and dance, 
+I have many hobbies including photography, Brazilian jiu jitsu, 
+crafting, doing escape rooms, playing board games, watching anime and theatre, reading, 
+cuddling with my cat named Remy, and being involved at my church! </p>
+
+<div class="slider"> <!--Image Slider-->
+    <div class="slides">
+        <div>
+            <img class="slide" src="Dance.jpg" alt="Image 1">
+            <p>Me At My Dance Competition</p>
+        </div>
+        <div>
+            <img class="slide" src="Baptism.png" alt="Image 2">
+            <p>Me Getting Baptized </p>
+        </div>
+        <div>
+            <img class="slide" src="Remy.jpg" alt="Image 3">
+            <p>Me and My Cat, Remy</p>
+        </div>
+        <div>
+            <img class="slide" src="Ryron.png" alt="Image 4">
+            <p>Me with Ryron Gracie</p>
+        </div>
+        <div>
+            <img class="slide" src="Latin.jpg" alt="Image 5">
+            <p>A Sample of My Photography</p>
+        </div>
+     </div>
+        <button class="previous" onclick="prevSlide()">&#10094</button>
+        <button class="next" onclick="nextSlide()">&#10095</button>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
